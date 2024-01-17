@@ -1,0 +1,9 @@
+@hostname = http://localhost:8000
+
+###
+//One user
+GET {{hostname}}/user/oneuser
+
+###
+//All user
+GET {{hostname}}/user/allusers
